@@ -1,0 +1,33 @@
+.main-nav {
+	display: flex;
+	padding: $small-spacing $base-spacing;
+}
+
+@media only screen and (max-width : $small-breakpoint) {
+    .main-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.main-nav__name {
+	flex: 1;
+	font-size: $logo-font-size;
+	text-transform: uppercase;
+	font-weight: $light-font-weight;
+}
+
+@media only screen and (max-width : $small-breakpoint) {
+    .main-nav__name {
+        margin-bottom: $small-spacing;
+    }
+}
+
+.main-nav__name--bold {
+	font-weight: $heavy-font-weight;
+	color: $teal;
+}
+
+.main-nav__link {
+	padding: $small-spacing $base-spacing;
+}
