@@ -1,3 +1,5 @@
+
+
 body {
 	font-family: $base-font-family;
 }
@@ -9,10 +11,14 @@ ul {
 a {
 	text-decoration: none;
 	color: $teal;
+	&:hover {
+		color: $teal-dark;
+	}
 }
 
 .main-nav {
 	display: flex;
+	padding: $small-spacing $base-spacing;
 }
 
 .main-nav__name {
@@ -25,4 +31,8 @@ a {
 .main-nav__name--bold {
 	font-weight: $heavy-font-weight;
 	color: $teal;
+}
+
+.main-nav__link {
+	padding: $base-spacing;
 }
