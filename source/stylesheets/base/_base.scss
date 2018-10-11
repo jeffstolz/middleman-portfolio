@@ -1,0 +1,23 @@
+body {
+	font-family: $base-font-family;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-nav {
+	display: flex;
+}
+
+.main-nav__name {
+	flex: 1;
+	font-size: $logo-font-size;
+	text-transform: uppercase;
+	font-weight: $light-font-weight;
+}
+
+.main-nav__name--bold {
+	font-weight: $heavy-font-weight;
+	color: $teal;
+}
