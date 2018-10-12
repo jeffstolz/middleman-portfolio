@@ -1,9 +1,10 @@
 body {
-	font-family: $base-font-family;
+	font-family: $font-family-base;
 }
 
 ul {
 	list-style: none;
+	padding-inline-start: 0px;
 }
 
 a {
