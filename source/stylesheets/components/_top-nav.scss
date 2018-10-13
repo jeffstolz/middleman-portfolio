@@ -12,7 +12,7 @@
 
 .top-nav__name {
     flex: 1;
-    font-size: $font-size-logo;
+    font-size: $font-size-x-large;
     text-transform: uppercase;
     font-weight: $font-weight-light;
     margin-bottom: $spacing-small;
@@ -23,7 +23,7 @@
 }
 
 .top-nav__name--impact {
-	font-weight: $font-weight-heavy;
+	font-weight: $font-weight-bold;
 	color: $teal;
 }
 

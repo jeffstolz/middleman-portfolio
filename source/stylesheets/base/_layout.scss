@@ -1,10 +1,6 @@
-body {
-	font-family: $font-family-base;
-}
-
 ul {
 	list-style: none;
-	padding-inline-start: 0px;
+	padding-inline-start: 0em;
 }
 
 a {
@@ -14,3 +10,4 @@ a {
 		color: $teal-dark;
 	}
 }
+
