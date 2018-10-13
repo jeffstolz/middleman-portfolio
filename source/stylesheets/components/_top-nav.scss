@@ -1,0 +1,32 @@
+.top-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @include breakpoint($breakpoint-medium) {
+        flex-direction: row;
+        text-align: left;
+        padding: $spacing-small $spacing-base;
+    }
+}
+
+.top-nav__name {
+    flex: 1;
+    font-size: $font-size-logo;
+    text-transform: uppercase;
+    font-weight: $font-weight-light;
+    margin-bottom: $spacing-small;
+
+    @include breakpoint($breakpoint-medium) {
+        padding-left: $spacing-base;
+    }
+}
+
+.top-nav__name--impact {
+	font-weight: $font-weight-heavy;
+	color: $teal;
+}
+
+.top-nav__link {
+	padding: $spacing-small $spacing-base;
+}

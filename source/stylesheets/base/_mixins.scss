@@ -1,0 +1,6 @@
+// Media Queries
+@mixin breakpoint($property)  {
+    @media only screen and (min-width: $property) {
+        @content;
+    }
+}

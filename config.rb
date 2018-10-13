@@ -8,6 +8,9 @@ end
 #enables middleman-livereload gem
 activate :livereload
 
+#all links in app relative
+set :relative_links, true
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
