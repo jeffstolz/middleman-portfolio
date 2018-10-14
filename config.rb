@@ -5,11 +5,9 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-#enables middleman-livereload gem
 activate :livereload
-
-#all links in app relative
 set :relative_links, true
+activate :i18n
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
