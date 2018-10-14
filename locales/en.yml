@@ -1,4 +1,12 @@
 ---
 en:
-  hello: "Hi, I'm Jeff."
-  welcome: "I'm a Product Designer based in Boston."
+  top-nav:
+    about: "About"
+    contact: "Contact"
+    work: "Work"
+  index:
+    hello: "Hi, I'm Jeff."
+    hmh-alt: "HMH Marketplace case study"
+    mh-alt: "Mobile Heartbeat case study"
+    pega-alt: "Pegasystems case study"
+    welcome: "I'm a Product Designer based in Boston."

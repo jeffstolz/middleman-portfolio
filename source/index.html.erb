@@ -1,15 +1,15 @@
 <main class="index">
-    <h1><%= t("hello") %></h1>
-    <h3><%= t("welcome") %></h3>
+    <h1><%= t("index.hello") %></h1>
+    <h3><%= t("index.welcome") %></h3>
     <section class="index__cards">
         <% link_to 'mobile-heartbeat.html' do %>
-            <%= image_tag 'mh-thumb.png', :class => "index__thumbnail" %>
+            <%= image_tag 'mh-thumb.png', :class => "index__thumbnail", :alt => t("index.mh-alt") %>
         <% end %>
         <% link_to 'hmh-marketplace.html' do %>
-            <%= image_tag 'hmh-thumb.png', :class => "index__thumbnail" %>
+            <%= image_tag 'hmh-thumb.png', :class => "index__thumbnail", :alt => t("index.hmh-alt")  %>
         <% end %>
         <% link_to 'pegasystems.html' do %>
-            <%= image_tag 'mh-thumb.png', :class => "index__thumbnail" %>
+            <%= image_tag 'mh-thumb.png', :class => "index__thumbnail", :alt => t("index.pega-alt")  %>
         <% end %>
     </section>
 </main>
