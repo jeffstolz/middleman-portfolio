@@ -2,3 +2,20 @@
     text-align: center;
     padding-top: $spacing-small;
 }
+
+.index__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $spacing-large;
+
+    @include breakpoint($breakpoint-large) {
+        flex-direction: row;
+    }
+}
+
+.index__thumbnail {
+    background-color: $very-light-gray;
+    margin: $spacing-small;
+    max-width: 90%;
+}

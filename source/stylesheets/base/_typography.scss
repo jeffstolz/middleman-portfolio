@@ -4,6 +4,7 @@ html {
 
 h1 {
     font-size: $font-size-xx-large;
+    margin-block-end: 0.5rem;
 }
 
 h2 {
@@ -13,5 +14,6 @@ h2 {
 h3 {
     font-size: $font-size-large;
     font-weight: $font-weight-medium;
+    margin-block-start: 0.5rem;
 }
 

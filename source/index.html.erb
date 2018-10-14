@@ -1,9 +1,15 @@
 <main class="index">
     <h1>Hi, I'm Jeff.</h1>
     <h3>I'm a Product Designer based in Boston.</h3>
-    <section>
-        <%= link_to '1', 'mobile-heartbeat.html' %>
-        <%= link_to '2', 'hmh-marketplace.html' %>
-        <%= link_to '3', 'pegasystems.html' %>
+    <section class="index__cards">
+        <% link_to 'mobile-heartbeat.html' do %>
+            <%= image_tag 'mh-thumb.png', :class => "index__thumbnail" %>
+        <% end %>
+        <% link_to 'hmh-marketplace.html' do %>
+            <%= image_tag 'hmh-thumb.png', :class => "index__thumbnail" %>
+        <% end %>
+        <% link_to 'pegasystems.html' do %>
+            <%= image_tag 'mh-thumb.png', :class => "index__thumbnail" %>
+        <% end %>
     </section>
 </main>
