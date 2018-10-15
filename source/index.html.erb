@@ -3,12 +3,15 @@
     <h3><%= t("index.welcome") %></h3>
     <section class="index__cards">
         <% link_to 'mobile-heartbeat.html' do %>
+            <h4 class="index__card-heading"><%= t("index.mh") %></h4>
             <%= image_tag 'mh-thumb.png', :class => "index__thumbnail", :alt => t("index.mh-alt") %>
         <% end %>
         <% link_to 'hmh-marketplace.html' do %>
+            <h4 class="index__card-heading"><%= t("index.hmh") %></h4>
             <%= image_tag 'hmh-thumb.png', :class => "index__thumbnail", :alt => t("index.hmh-alt")  %>
         <% end %>
         <% link_to 'pegasystems.html' do %>
+            <h4 class="index__card-heading"><%= t("index.pega") %></h4>
             <%= image_tag 'mh-thumb.png', :class => "index__thumbnail", :alt => t("index.pega-alt")  %>
         <% end %>
     </section>

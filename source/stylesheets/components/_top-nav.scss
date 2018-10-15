@@ -5,17 +5,17 @@
 
     @include breakpoint($breakpoint-medium) {
         flex-direction: row;
-        text-align: left;
         padding: $spacing-small $spacing-base;
+        text-align: left;
     }
 }
 
 .top-nav__name {
     flex: 1;
     font-size: $font-size-x-large;
-    text-transform: uppercase;
     font-weight: $font-weight-light;
     margin-bottom: $spacing-small;
+    text-transform: uppercase;
 
     @include breakpoint($breakpoint-medium) {
         padding-left: $spacing-base;
@@ -23,8 +23,8 @@
 }
 
 .top-nav__name--impact {
+    color: $teal;
 	font-weight: $font-weight-bold;
-	color: $teal;
 }
 
 .top-nav__link {

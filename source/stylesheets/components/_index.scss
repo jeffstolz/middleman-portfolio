@@ -1,6 +1,6 @@
 .index {
-    text-align: center;
     padding-top: $spacing-small;
+    text-align: center;
 }
 
 .index__cards {
@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     padding: $spacing-base;
+    position: relative;
 
     @include breakpoint($breakpoint-medium) {
         padding: $spacing-large;
@@ -18,8 +19,13 @@
     }
 }
 
+.index__card-heading {
+    margin-left: $spacing-base;
+    position: absolute;
+}
+
 .index__thumbnail {
     background-color: $very-light-gray;
-    max-width: 95%;
     margin-bottom: $spacing-base;
+    max-width: 95%;
 }
