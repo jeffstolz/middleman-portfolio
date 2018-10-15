@@ -5,14 +5,14 @@ $breakpoint-large: 55em;
 // Colors
 $teal: #118288;
 $teal-dark: mix($teal, black, 80%);
-$teal-transparent: rgba(17, 130, 136, 0.7);
-$very-light-gray: #F2F2F2;
+$teal-transparent: rgba($teal, 0.7);
+$very-light-gray: #f2f2f2;
 $light-gray: #ccc;
-$white: #FFF;
+$white: #fff;
 
 // Font Sizes
 $font-size-base: 1rem;
-$font-size-smallest: $font-size-base * 0.6;
+$font-size-x-small: $font-size-base * 0.6;
 $font-size-small: $font-size-base * 0.75;
 $font-size-medium: $font-size-base * 1.25;
 $font-size-large: $font-size-base * 1.5;

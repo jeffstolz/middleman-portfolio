@@ -1,4 +1,4 @@
-.top-nav {
+.navbar {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -10,7 +10,7 @@
     }
 }
 
-.top-nav__name {
+.navbar__name {
     flex: 1;
     font-size: $font-size-x-large;
     font-weight: $font-weight-light;
@@ -22,11 +22,11 @@
     }
 }
 
-.top-nav__name--impact {
+.navbar__name--impact {
     color: $teal;
 	font-weight: $font-weight-bold;
 }
 
-.top-nav__link {
+.navbar__link {
 	padding: $spacing-small $spacing-base;
 }
