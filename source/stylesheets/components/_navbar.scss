@@ -1,32 +1,32 @@
-.top-nav {
+.navbar {
     display: flex;
     flex-direction: column;
     text-align: center;
 
     @include breakpoint($breakpoint-medium) {
         flex-direction: row;
-        text-align: left;
         padding: $spacing-small $spacing-base;
+        text-align: left;
     }
 }
 
-.top-nav__name {
+.navbar__name {
     flex: 1;
-    font-size: $font-size-logo;
-    text-transform: uppercase;
+    font-size: $font-size-x-large;
     font-weight: $font-weight-light;
     margin-bottom: $spacing-small;
+    text-transform: uppercase;
 
     @include breakpoint($breakpoint-medium) {
         padding-left: $spacing-base;
     }
 }
 
-.top-nav__name--impact {
-	font-weight: $font-weight-heavy;
-	color: $teal;
+.navbar__name--impact {
+    color: $teal;
+	font-weight: $font-weight-bold;
 }
 
-.top-nav__link {
+.navbar__link {
 	padding: $spacing-small $spacing-base;
 }

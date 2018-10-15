@@ -1,18 +1,29 @@
 // Breakpoints
-$breakpoint-medium: 480px;
-$breakpoint-large: 890px;
+$breakpoint-medium: 40em;
+$breakpoint-large: 55em;
 
 // Colors
-$teal: #12939A;
+$teal: #118288;
 $teal-dark: mix($teal, black, 80%);
+$teal-transparent: rgba($teal, 0.7);
+$very-light-gray: #f2f2f2;
+$light-gray: #ccc;
+$white: #fff;
 
 // Font Sizes
 $font-size-base: 1rem;
-$font-size-logo: 2rem;
+$font-size-x-small: $font-size-base * 0.6;
+$font-size-small: $font-size-base * 0.75;
+$font-size-medium: $font-size-base * 1.25;
+$font-size-large: $font-size-base * 1.5;
+$font-size-x-large: $font-size-base * 2;
+$font-size-xx-large: $font-size-base * 3;
 
 // Font Weights
 $font-weight-light: 200;
-$font-weight-heavy: 600;
+$font-weight-normal: 300;
+$font-weight-medium: 400;
+$font-weight-bold: 700;
 
 // Spacing
 $spacing-base: 1.5rem;

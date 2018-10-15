@@ -1,0 +1,60 @@
+.index {
+    padding-top: $spacing-small;
+    text-align: center;
+}
+
+.index__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $spacing-base;
+    position: relative;
+
+    @include breakpoint($breakpoint-medium) {
+        padding: $spacing-large;
+    }
+
+    @include breakpoint($breakpoint-large) {
+        flex-direction: row;
+    }
+}
+
+.index__case {
+    position: relative;
+}
+
+.index__case--overlay {
+    background-color: $teal-transparent;
+    bottom: 0;
+    color: $white;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.index__case:hover .index__case--overlay {
+    opacity: 1;
+}
+
+.index__case-heading {
+    margin-left: $spacing-base;
+    position: absolute;
+}
+
+.index__case:hover .index__case-heading {
+    color: $white;
+}
+
+.index__case-description {
+    margin: 10em auto 0 auto;
+    width: 80%;
+}
+
+.index__thumbnail {
+    background-color: $very-light-gray;
+    margin-bottom: $spacing-base;
+    max-width: 95%;
+}
