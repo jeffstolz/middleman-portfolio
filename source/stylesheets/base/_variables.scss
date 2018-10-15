@@ -5,8 +5,10 @@ $breakpoint-large: 55em;
 // Colors
 $teal: #118288;
 $teal-dark: mix($teal, black, 80%);
+$teal-transparent: rgba(17, 130, 136, 0.7);
 $very-light-gray: #F2F2F2;
 $light-gray: #ccc;
+$white: #FFF;
 
 // Font Sizes
 $font-size-base: 1rem;
