@@ -19,7 +19,11 @@ h3 {
     font-weight: $font-weight-medium;
 }
 
-p {
+p, li {
     color: $gray;
     line-height: $line-height-base;
+}
+
+li {
+    line-height: $line-height-medium;
 }
