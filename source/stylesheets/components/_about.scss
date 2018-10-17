@@ -6,6 +6,7 @@
 .about__section {
     display: flex;
     flex-direction: column;
+    @include padding($spacing-base null);
 
     @include breakpoint($breakpoint-medium) {
         @include padding($spacing-base);
