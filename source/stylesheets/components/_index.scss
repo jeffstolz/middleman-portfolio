@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-content: center;
     padding: $spacing-base;
-    position: relative;
 
     @include breakpoint($breakpoint-medium) {
         padding: $spacing-large;
@@ -20,19 +19,18 @@
 }
 
 .index__case {
+    @include margin(null $spacing-base);
     position: relative;
+    margin-bottom: $spacing-base;
+    max-width: 30em;
 }
 
 .index__case--overlay {
+    @include position(absolute, 0);
     background-color: $teal-transparent;
-    bottom: 0;
     color: $white;
     height: 100%;
-    left: 0;
     opacity: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .index__case:hover .index__case--overlay {
@@ -49,12 +47,11 @@
 }
 
 .index__case-description {
-    margin: 10em auto 0 auto;
+    @include margin($spacing-xx-large auto 0 auto);
     width: 80%;
 }
 
 .index__thumbnail {
     background-color: $very-light-gray;
-    margin-bottom: $spacing-base;
-    max-width: 95%;
+    max-width: 100%;
 }
