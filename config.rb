@@ -10,7 +10,7 @@ set :relative_links, true
 activate :i18n
 
 # Layouts
-# https://middlemanapp.com/basics/layouts/
+page "/index.html", :layout => "landing"
 
 # Per-page layout changes
 page '/*.xml', layout: false
