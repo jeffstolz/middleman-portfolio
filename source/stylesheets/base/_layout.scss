@@ -16,6 +16,6 @@ a {
 	@include margin($spacing-base);
 
     @include breakpoint($breakpoint-medium) {
-		@include margin($spacing-large auto null auto);
+		@include margin($spacing-large auto);
     }
 }
