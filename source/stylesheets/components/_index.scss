@@ -20,9 +20,9 @@
 
 .index__case {
   @include margin(null $spacing-base);
-  position: relative;
   margin-bottom: $spacing-base;
   max-width: 30em;
+  position: relative;
 }
 
 .index__case--overlay {
