@@ -1,23 +1,23 @@
 .about__profile {
-    max-width: 100%;
-    margin-bottom: $spacing-medium;
+  margin-bottom: $spacing-medium;
+  max-width: 100%;
 }
 
 .about__section {
-    display: flex;
-    flex-direction: column;
-    @include padding($spacing-base null);
+  @include padding($spacing-base null);
+  display: flex;
+  flex-direction: column;
 
-    @include breakpoint($breakpoint-medium) {
-        @include padding($spacing-base);
-        flex-direction: row;
-    }
+  @include breakpoint($breakpoint-medium) {
+    @include padding($spacing-base);
+    flex-direction: row;
+  }
 }
 
 .about__section-header {
-    flex: 1;
+  flex: 1;
 }
 
 .about__section-content {
-    flex: 1;
+  flex: 1;
 }

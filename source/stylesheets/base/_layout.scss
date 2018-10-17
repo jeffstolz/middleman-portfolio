@@ -1,21 +1,21 @@
 ul {
-	list-style: none;
-	padding: 0rem;
+  list-style: none;
+  padding: 0rem;
 }
 
 a {
-	text-decoration: none;
-	color: $teal;
-	&:hover {
-		color: $teal-dark;
-	}
+  text-decoration: none;
+  color: $teal;
+  &:hover {
+    color: $teal-dark;
+  }
 }
 
 .layout {
-	max-width: 60em;
-	@include margin($spacing-base);
+  margin: $spacing-base;
+  max-width: $page-max-width;
 
-    @include breakpoint($breakpoint-medium) {
-		@include margin($spacing-large auto);
-    }
+  @include breakpoint($breakpoint-medium) {
+    margin: $spacing-large auto;
+  }
 }

@@ -1,32 +1,32 @@
 .navbar {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
-    @include breakpoint($breakpoint-medium) {
-        flex-direction: row;
-        padding: $spacing-small $spacing-base;
-        text-align: left;
-    }
+  @include breakpoint($breakpoint-medium) {
+    flex-direction: row;
+    padding: $spacing-small $spacing-base;
+    text-align: left;
+  }
 }
 
 .navbar__name {
-    flex: 1;
-    font-size: $font-size-x-large;
-    font-weight: $font-weight-light;
-    margin-bottom: $spacing-small;
-    text-transform: uppercase;
+  flex: 1;
+  font-size: $font-size-x-large;
+  font-weight: $font-weight-light;
+  margin-bottom: $spacing-small;
+  text-transform: uppercase;
 
-    @include breakpoint($breakpoint-medium) {
-        padding-left: $spacing-base;
-    }
+  @include breakpoint($breakpoint-medium) {
+    padding-left: $spacing-base;
+  }
 }
 
 .navbar__name--impact {
-    color: $teal;
-	font-weight: $font-weight-bold;
+  color: $teal;
+  font-weight: $font-weight-bold;
 }
 
 .navbar__link {
-	padding: $spacing-small $spacing-base;
+  padding: $spacing-small $spacing-base;
 }

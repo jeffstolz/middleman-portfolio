@@ -10,9 +10,8 @@ set :relative_links, true
 activate :i18n
 
 # Layouts
-page "/index.html", :layout => "landing"
-
 # Per-page layout changes
+page "/index.html", layout: "landing"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false

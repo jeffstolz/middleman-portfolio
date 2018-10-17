@@ -1,44 +1,49 @@
 ---
-title: Jeff Stolz | About
+title: Jeff Stolz - About
 ---
 
-<%= image_tag "profile.png", :class => "about__profile", :alt => t("about.profile-alt") %>
+<%= image_tag(
+  "profile.jpg", 
+  class: "about__profile", 
+  alt: t("about.profile-alt"),
+) %>
 <section class="about__section">
-    <div class="about__section-header">
-        <h1><%= t("about.about-me") %></h1>
-    </div>
-    <div class="about__section-content">
-        <p><%= t("about.about-me-content-1") %></p>
-        <p><%= t("about.about-me-content-2") %></p>
-    </div>
+  <h1 class="about__section-header">
+    <%= t("about.about-me") %>
+  </h1>
+  <div class="about__section-content">
+    <p><%= t("about.about-me-content-1") %></p>
+    <p><%= t("about.about-me-content-2") %></p>
+  </div>
 </section>
 <section class="about__section">
-    <div class="about__section-header">
-        <h1><%= t("about.specialties") %></h1>
-    </div>
-    <div class="about__section-content">
-        <ul>
-            <li><%= t("about.ux-design") %></li>
-            <li><%= t("about.interaction-design") %></li>
-            <li><%= t("about.information-architecture") %></li>
-            <li><%= t("about.front-end-dev") %></li>
-            <li><%= t("about.usability-testing") %></li>
-            <li><%= t("about.product-design") %></li>
-    </div>
+  <h2 class="about__section-header">
+    <%= t("about.specialties") %>
+  </h2>
+  <ul class="about__section-content">
+    <li><%= t("about.ux-design") %></li>
+    <li><%= t("about.interaction-design") %></li>
+    <li><%= t("about.information-architecture") %></li>
+    <li><%= t("about.front-end-dev") %></li>
+    <li><%= t("about.usability-testing") %></li>
+    <li><%= t("about.product-design") %></li>
+  </ul>
 </section>
 <section class="about__section">
-    <div class="about__section-header">
-        <h1><%= t("about.tools") %></h1>
-    </div>
-    <div class="about__section-content">
-        <p><%= t("about.tools-content") %></p>
-    </div>
+  <h2 class="about__section-header">
+    <%= t("about.tools") %>
+  </h2>
+  <p class="about__section-content">
+    <%= t("about.tools-content") %>
+  </p>
 </section>
 <section class="about__section">
-    <div class="about__section-header">
-        <h1><%= t("about.resume") %></h1>
-    </div>
-    <div class="about__section-content">
-        <p><%= t("about.resume-content") %> <%= link_to t("about.here"), "images/jeff-stolz-resume.pdf", target: "_blank" %></p>
-    </div>
+  <h2 class="about__section-header">
+    <%= t("about.resume") %>
+  </h2>
+  <p class="about__section-content">
+    <%= t("about.resume-content") %>
+    <%= link_to t("about.here"), 
+    "images/jeff-stolz-resume.pdf" %>
+  </p>
 </section>

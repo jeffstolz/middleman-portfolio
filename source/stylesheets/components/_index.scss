@@ -1,58 +1,58 @@
 .index {
-    padding-top: $spacing-small;
-    text-align: center;
+  padding-top: $spacing-small;
+  text-align: center;
 }
 
 .index__cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: $spacing-base;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $spacing-base;
 
-    @include breakpoint($breakpoint-medium) {
-        padding: $spacing-large;
-    }
+  @include breakpoint($breakpoint-medium) {
+    padding: $spacing-large;
+  }
 
-    @include breakpoint($breakpoint-large) {
-        flex-direction: row;
-    }
+  @include breakpoint($breakpoint-large) {
+    flex-direction: row;
+  }
 }
 
 .index__case {
-    @include margin(null $spacing-base);
-    position: relative;
-    margin-bottom: $spacing-base;
-    max-width: 30em;
+  @include margin(null $spacing-base);
+  position: relative;
+  margin-bottom: $spacing-base;
+  max-width: 30em;
 }
 
 .index__case--overlay {
-    @include position(absolute, 0);
-    background-color: $teal-transparent;
-    color: $white;
-    height: 100%;
-    opacity: 0;
+  @include position(absolute, 0);
+  background-color: $teal-transparent;
+  color: $white;
+  height: 100%;
+  opacity: 0;
 }
 
 .index__case:hover .index__case--overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .index__case-heading {
-    margin-left: $spacing-base;
-    position: absolute;
+  @include margin($spacing-small $spacing-base);
+  position: absolute;
 }
 
 .index__case:hover .index__case-heading {
-    color: $white;
+  color: $white;
 }
 
 .index__case-description {
-    @include margin($spacing-xx-large auto 0 auto);
-    color: $white;
-    width: 80%;
+  @include margin($spacing-xx-large auto 0 auto);
+  color: $white;
+  width: 80%;
 }
 
 .index__thumbnail {
-    background-color: $very-light-gray;
-    max-width: 100%;
+  background-color: $very-light-gray;
+  max-width: 100%;
 }
