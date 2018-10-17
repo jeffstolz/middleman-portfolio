@@ -1,19 +1,22 @@
 .about__profile {
     max-width: 100%;
+    margin-bottom: $spacing-medium;
 }
 
 .about__section {
     display: flex;
     flex-direction: column;
+
     @include breakpoint($breakpoint-medium) {
+        @include padding($spacing-base);
         flex-direction: row;
     }
 }
 
 .about__section-header {
-    flex: 2;
+    flex: 1;
 }
 
 .about__section-content {
-    flex: 3;
+    flex: 1;
 }
