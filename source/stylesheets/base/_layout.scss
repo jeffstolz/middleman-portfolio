@@ -11,7 +11,15 @@ a {
 	}
 }
 
+p {
+	color: $gray;
+}
+
 .layout {
 	max-width: 60em;
-	@include margin(5em auto null auto);
+	@include margin(5em 3em null 3em);
+
+    @include breakpoint($breakpoint-medium) {
+		@include margin(5em auto null auto);
+    }
 }

@@ -48,6 +48,7 @@
 
 .index__case-description {
     @include margin($spacing-xx-large auto 0 auto);
+    color: $white;
     width: 80%;
 }
 

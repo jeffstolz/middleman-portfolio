@@ -2,4 +2,13 @@
 title: Jeff Stolz | About
 ---
 
-<%= image_tag "profile.png", :class => "about__profile", :alt => t("index.profile-alt") %>
+<%= image_tag "profile.png", :class => "about__profile", :alt => t("about.profile-alt") %>
+<section class="about__section">
+    <div class="about__section-header">
+        <h1><%= t("about.about-me") %></h1>
+    </div>
+    <div class="about__section-content">
+        <p><%= t("about.about-me-content-1") %></p>
+        <p><%= t("about.about-me-content-2") %></p>
+    </div>
+</section>
