@@ -16,6 +16,9 @@ en:
     tools-content: "Sketch, Craft, Adobe CC, Balsamiq, InVision, Flinto, Zeplin, Jira, Slack, Trello, Bootstrap, Ruby on Rails, Sass, WordPress, Bourbon."
     usability-testing: "Usability Testing"
     ux-design: "UX Design"
+  contact:
+    contact-content: "I am looking to contribute to a group of bold & talented individuals that are committed to user-centric design thinking and collaborative, agile approaches. If you think I may be a good fit for your team, please feel free to reach out. The best way to get a hold of me is by email "
+    thanks: "Thanks for visiting"
   navbar:
     about: "About"
     contact: "Contact"

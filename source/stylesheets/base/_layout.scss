@@ -19,3 +19,23 @@ a {
     margin: $spacing-large auto;
   }
 }
+
+.split-layout__section {
+  @include padding($spacing-base null);
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($breakpoint-medium) {
+    @include padding($spacing-base);
+    flex-direction: row;
+  }
+}
+
+.split-layout__section-header {
+  flex: 1;
+  padding-right: $spacing-base;
+}
+
+.split-layout__section-content {
+  flex: 1;
+}
