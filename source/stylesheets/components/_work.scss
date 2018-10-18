@@ -17,3 +17,28 @@
     @include margin($spacing-xx-large null $spacing-small null);
   }  
 }
+
+.work__image--x-small-spacing {
+  @include margin($spacing-large null $spacing-small null);
+
+  @include breakpoint($breakpoint-medium) {
+    margin-bottom: $spacing-base;
+  }  
+}
+
+.work__solutions--wrapper {
+  padding-top: $spacing-x-large;
+}
+
+.work__solutions {
+  display: flex;
+}
+
+.work__solution-item {
+@include padding(null $spacing-large);
+  flex: 1;
+}
+
+.work__solution-footnote {
+  font-size: $font-size-small;
+}
