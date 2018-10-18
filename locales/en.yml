@@ -23,6 +23,10 @@ en:
     heading: "Mobile Heartbeat"
     overview: "Enabling clinicians to improve patient care through accelerated communication and collaboration in the hospital."
     overview-image: "Mobile Heartbeat iOS, Android, and web applications."
+    problem: "The Problem"
+    problem-content: "Mobile Heartbeat is a clinical communication tool in 92 hospitals and with over 100,000 active users. Although this product has a deep userbase, the company had not focused on experience design in it's past, and end-users complained that the product had grown dated, unintuitive, and frustrating. Physicians were rejecting the application because it didn't support their specific workflow, and urgent communications were a burden. I was brought on to establish a UX culture within the company, and lead the redesign of their iOS, Android, and web applications to help solve these problems."
+    users: "Our Users"
+    users-content: "The product is deeply rooted in many facilities, and is used by both clinical and non-clinical users throughout the hospital. This includes nurses, physicians, unit secretaries, and housekeeping. Our users have a broad range of goals, technical proficiency, native languages, and accessibility needs. This was a primary challenge for us as we tried to balance providing both a simple and intuitive experience for all while enabling our power users equally."
   navbar:
     about: "About"
     contact: "Contact"

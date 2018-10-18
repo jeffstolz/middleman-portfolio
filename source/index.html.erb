@@ -3,9 +3,12 @@ title: Jeff Stolz - Product Designer
 ---
 
 <main class="index">
+
   <h1><%= t("index.hello") %></h1>
   <h4><%= t("index.welcome") %></h3>
+
   <section class="index__cards">
+
     <% link_to "mobile-heartbeat.html", class: "index__case" do %>
       <div class="index__case--overlay">
         <p class="index__case-description">
@@ -21,6 +24,7 @@ title: Jeff Stolz - Product Designer
         alt: t("index.mh-alt"),
       ) %>
     <% end %>
+
     <% link_to "hmh-marketplace.html", class: "index__case" do %>
       <div class="index__case--overlay">
         <p class="index__case-description">
@@ -36,6 +40,7 @@ title: Jeff Stolz - Product Designer
         alt: t("index.hmh-alt"),
       ) %>
     <% end %>
+
     <% link_to "pegasystems.html", class: "index__case" do %>
       <div class="index__case--overlay">
         <p class="index__case-description">
@@ -51,5 +56,7 @@ title: Jeff Stolz - Product Designer
         alt: t("index.pega-alt"),
       ) %>
     <% end %>
+    
   </section>
+
 </main>

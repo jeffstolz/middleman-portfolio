@@ -3,11 +3,13 @@ title: Jeff Stolz - About
 ---
 
 <main class="split-layout">
+
   <%= image_tag(
     "profile.jpg", 
     class: "about__profile", 
     alt: t("about.profile-alt"),
   ) %>
+
   <section class="split-layout__section">
     <h1 class="split-layout__section-header">
       <%= t("about.about-me") %>
@@ -17,6 +19,7 @@ title: Jeff Stolz - About
       <p><%= t("about.about-me-content-2") %></p>
     </div>
   </section>
+
   <section class="split-layout__section">
     <h2 class="split-layout__section-header">
       <%= t("about.specialties") %>
@@ -30,6 +33,7 @@ title: Jeff Stolz - About
       <li><%= t("about.product-design") %></li>
     </ul>
   </section>
+
   <section class="split-layout__section">
     <h2 class="split-layout__section-header">
       <%= t("about.tools") %>
@@ -38,6 +42,7 @@ title: Jeff Stolz - About
       <%= t("about.tools-content") %>
     </p>
   </section>
+  
   <section class="split-layout__section">
     <h2 class="split-layout__section-header">
       <%= t("about.resume") %>
@@ -48,4 +53,5 @@ title: Jeff Stolz - About
       "images/jeff-stolz-resume.pdf" %>
     </p>
   </section>
+
 </main>

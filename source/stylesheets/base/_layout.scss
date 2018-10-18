@@ -39,3 +39,9 @@ a {
 .split-layout__section-content {
   flex: 1;
 }
+
+.split-layout__divider {
+  @include margin($spacing-xx-large null);
+  border: solid 1px $light-gray;
+  width: 40%;
+}

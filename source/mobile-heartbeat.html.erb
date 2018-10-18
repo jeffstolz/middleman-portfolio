@@ -3,6 +3,7 @@ title: Case Study - Mobile Heartbeat
 ---
 
 <main class="split-layout">
+
   <section>
     <h1><%= t("mh.heading") %></h1>
     <p><%= t("work.case-study") %></p>
@@ -13,4 +14,25 @@ title: Case Study - Mobile Heartbeat
       alt: t("mh.overview-image"),
     ) %>
   </section>
+
+  <section class="split-layout__section">
+    <h2 class="split-layout__section-header">
+      <%= t("mh.problem") %>
+    </h2>
+    <div class="split-layout__section-content">
+      <p><%= t("mh.problem-content") %></p>
+    </div>
+  </section>
+
+  <hr class="split-layout__divider"></hr>
+
+  <section class="split-layout__section">
+    <h2 class="split-layout__section-header">
+      <%= t("mh.users") %>
+    </h2>
+    <div class="split-layout__section-content">
+      <p><%= t("mh.users-content") %></p>
+    </div>
+  </section>
+
 </main>
