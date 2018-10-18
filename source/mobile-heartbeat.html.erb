@@ -1,3 +1,16 @@
 ---
 title: Case Study - Mobile Heartbeat
 ---
+
+<main class="split-layout">
+  <section>
+    <h1><%= t("mh.heading") %></h1>
+    <p><%= t("work.case-study") %></p>
+    <h4 class="work__overview"><%= t("mh.overview") %></h4>
+    <%= image_tag(
+      "mh-overview.jpg", 
+      class: "work__image", 
+      alt: t("mh.overview-image"),
+    ) %>
+  </section>
+</main>

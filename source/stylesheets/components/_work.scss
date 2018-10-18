@@ -1,0 +1,12 @@
+.work__overview {
+  margin-top: $spacing-base;
+}
+
+.work__image {
+  @include margin($spacing-large null);
+  max-width: 100%;
+
+  @include breakpoint($breakpoint-medium) {
+    @include margin($spacing-xx-large null);
+  }  
+}
