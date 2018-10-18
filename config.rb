@@ -11,7 +11,6 @@ activate :i18n
 
 # Layouts
 # Per-page layout changes
-page "/index.html", layout: "landing"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false

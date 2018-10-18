@@ -10,7 +10,11 @@
   </head>
   <body>
     <%= partial "partials/navbar" %>
+    <% if current_page.data.title == "Jeff Stolz - Product Designer" %>
+    <main class="index">
+    <% else %>
     <main class="layout">
+    <% end %>
       <%= yield %>
     </main>
     <%= partial "partials/footer" %>

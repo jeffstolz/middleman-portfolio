@@ -19,9 +19,9 @@
 }
 
 .index__case {
-  @include margin(null $spacing-base);
+  @include margin(null $spacing-small);
   margin-bottom: $spacing-base;
-  max-width: 30em;
+  max-width: $index-max-width;
   position: relative;
 }
 
