@@ -20,11 +20,17 @@ en:
     contact-content: "I am looking to contribute to a group of bold & talented individuals that are committed to user-centric design thinking and collaborative, agile approaches. If you think I may be a good fit for your team, please feel free to reach out. The best way to get a hold of me is by email "
     thanks: "Thanks for visiting"
   mh:
+    discovery: "Discovery Phase"
+    discovery-content: "Our users have highly specific and complex workflows, and we needed to make sure to thoroughly research and understand them. Our research included shadowing, interviewing, focus groups & surveys. This ranged from observing a chaotic night shift in a Manhattan ER, to scrubbing into the OR to see how surgical teams communicate. As a result, we built a stronger understanding of the goals & frustrations of our customers."
+    discovery-footnote: "We chose to follow the Lean UX Canvas for initial problem definition to help us maintain focus and establish measurable outcomes. Through our process, we formulated three hypotheses to measure against. In addition to a complete UI redesign of the application, we focused on solving the core problems around our information architecture, physician workflow, and speed of urgent communications."
+    discovery-image: "Discovery process using UX Lean Canvas"
     heading: "Mobile Heartbeat"
     overview: "Enabling clinicians to improve patient care through accelerated communication and collaboration in the hospital."
     overview-image: "Mobile Heartbeat iOS, Android, and web applications."
     problem: "The Problem"
     problem-content: "Mobile Heartbeat is a clinical communication tool in 92 hospitals and with over 100,000 active users. Although this product has a deep userbase, the company had not focused on experience design in it's past, and end-users complained that the product had grown dated, unintuitive, and frustrating. Physicians were rejecting the application because it didn't support their specific workflow, and urgent communications were a burden. I was brought on to establish a UX culture within the company, and lead the redesign of their iOS, Android, and web applications to help solve these problems."
+    team: "Team & Role"
+    team-content: "I led the design of the project with the help of the two designers on my team. This included the coordination of all facets of the design including information architecture, visual design, interaction design, prototyping, and usability testing. This was a highly collaborative effort that included many resources from Product & Engineering."
     users: "Our Users"
     users-content: "The product is deeply rooted in many facilities, and is used by both clinical and non-clinical users throughout the hospital. This includes nurses, physicians, unit secretaries, and housekeeping. Our users have a broad range of goals, technical proficiency, native languages, and accessibility needs. This was a primary challenge for us as we tried to balance providing both a simple and intuitive experience for all while enabling our power users equally."
   navbar:

@@ -2,11 +2,18 @@
   margin-top: $spacing-base;
 }
 
-.work__image {
+.work__image--large-spacing {
   @include margin($spacing-large null);
-  max-width: 100%;
 
   @include breakpoint($breakpoint-medium) {
     @include margin($spacing-xx-large null);
+  }  
+}
+
+.work__image--small-spacing {
+  @include margin($spacing-large null $spacing-small null);
+
+  @include breakpoint($breakpoint-medium) {
+    @include margin($spacing-large null $spacing-small null);
   }  
 }

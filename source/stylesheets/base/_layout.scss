@@ -11,6 +11,10 @@ a {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 .split-layout {
   margin: $spacing-base;
   max-width: $page-max-width;
