@@ -10,7 +10,7 @@ title: Case Study - Mobile Heartbeat
   <%= image_tag(
     "mh-overview.jpg", 
     class: "work__image--large-spacing", 
-    alt: t("mh.overview-image"),
+    alt: t("mh.overview-alt"),
   ) %>
 
   <section class="split-layout__section">
@@ -58,8 +58,40 @@ title: Case Study - Mobile Heartbeat
   <%= image_tag(
     "mh-discovery.jpg", 
     class: "work__image--small-spacing", 
-    alt: t("mh.discovery-image"),
+    alt: t("mh.discovery-alt"),
   ) %>
   <p><%= t("mh.discovery-footnote") %></p>
+
+  <%= image_tag(
+    "mh-persona.jpg", 
+    class: "work__image--small-spacing", 
+    alt: t("mh.persona-alt"),
+  ) %>
+  <p><%= t("mh.persona-footnote") %></p>
+
+  <hr class="split-layout__divider"></hr>
+
+  <section class="split-layout__section">
+    <h2 class="split-layout__section-header">
+      <%= t("mh.design-process") %>
+    </h2>
+    <div class="split-layout__section-content">
+      <p><%= t("mh.design-process-content") %></p>
+    </div>
+  </section>
+
+  <%= image_tag(
+    "mh-design-process-sketch.jpg", 
+    class: "work__image--small-spacing", 
+    alt: t("mh.design-process-alt"),
+  ) %>
+  <p><%= t("mh.design-process-footnote") %></p>
+
+  <%= image_tag(
+    "mh-wireframe.jpg", 
+    class: "work__image--small-spacing", 
+    alt: t("mh.wireframe-alt"),
+  ) %>
+  <p><%= t("mh.wireframe-footnote") %></p>
 
 </main>
