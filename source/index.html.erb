@@ -1,27 +1,53 @@
-<main class="index">
-    <h1><%= t("index.hello") %></h1>
-    <h3><%= t("index.welcome") %></h3>
-    <section class="index__cards">
-        <% link_to "mobile-heartbeat.html", :class => "index__case" do %>
-            <div class="index__case--overlay">
-                <p class="index__case-description"><%= t("index.mh-description") %></p>
-            </div>
-            <h4 class="index__case-heading"><%= t("index.mh") %></h4>
-            <%= image_tag "mh-thumb.png", :class => "index__thumbnail", :alt => t("index.mh-alt") %>
-        <% end %>
-        <% link_to "hmh-marketplace.html", :class => "index__case" do %>
-            <div class="index__case--overlay">
-                <p class="index__case-description"><%= t("index.hmh-description") %></p>
-            </div>
-            <h4 class="index__case-heading"><%= t("index.hmh") %></h4>
-            <%= image_tag "hmh-thumb.png", :class => "index__thumbnail", :alt => t("index.hmh-alt") %>
-        <% end %>
-        <% link_to "pegasystems.html", :class => "index__case" do %>
-            <div class="index__case--overlay">
-                <p class="index__case-description"><%= t("index.pega-description") %></p>
-            </div>
-            <h4 class="index__case-heading"><%= t("index.pega") %></h4>
-            <%= image_tag "hmh-thumb.png", :class => "index__thumbnail", :alt => t("index.pega-alt") %>
-        <% end %>
-    </section>
-</main>
+---
+title: Jeff Stolz - Product Designer
+---
+
+<h1><%= t("index.hello") %></h1>
+<h4><%= t("index.welcome") %></h3>
+<section class="index__cards">
+  <% link_to "mobile-heartbeat.html", class: "index__case" do %>
+    <div class="index__case--overlay">
+      <p class="index__case-description">
+        <%= t("index.mh-description") %>
+      </p>
+    </div>
+    <h5 class="index__case-heading">
+      <%= t("index.mh") %>
+    </h5>
+    <%= image_tag(
+      "mh-thumb.png",
+      class: "index__thumbnail",
+      alt: t("index.mh-alt"),
+    ) %>
+  <% end %>
+  <% link_to "hmh-marketplace.html", class: "index__case" do %>
+    <div class="index__case--overlay">
+      <p class="index__case-description">
+        <%= t("index.hmh-description") %>
+      </p>
+    </div>
+    <h5 class="index__case-heading">
+      <%= t("index.hmh") %>
+    </h5>
+    <%= image_tag(
+      "hmh-thumb.png",
+      class: "index__thumbnail",
+      alt: t("index.hmh-alt"),
+    ) %>
+  <% end %>
+  <% link_to "pegasystems.html", class: "index__case" do %>
+    <div class="index__case--overlay">
+      <p class="index__case-description">
+        <%= t("index.pega-description") %>
+      </p>
+    </div>
+    <h5 class="index__case-heading">
+      <%= t("index.pega") %>
+    </h5>
+    <%= image_tag(
+      "hmh-thumb.png",
+      class: "index__thumbnail",
+      alt: t("index.pega-alt"),
+    ) %>
+  <% end %>
+</section>

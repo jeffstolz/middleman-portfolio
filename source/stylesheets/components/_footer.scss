@@ -1,18 +1,18 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 
-    @include breakpoint($breakpoint-medium) {
-        flex-direction: row;
-    }
+  @include breakpoint($breakpoint-medium) {
+    flex-direction: row;
+  }
 }
 
 .footer__link {
-    padding: $spacing-x-small;
+  padding: $spacing-x-small;
 
-    @include breakpoint($breakpoint-medium) {
-        padding: $spacing-base;
-    }
+  @include breakpoint($breakpoint-medium) {
+    padding: $spacing-base;
+  }
 }

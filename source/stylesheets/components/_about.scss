@@ -1,0 +1,23 @@
+.about__profile {
+  margin-bottom: $spacing-medium;
+  max-width: 100%;
+}
+
+.about__section {
+  @include padding($spacing-base null);
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($breakpoint-medium) {
+    @include padding($spacing-base);
+    flex-direction: row;
+  }
+}
+
+.about__section-header {
+  flex: 1;
+}
+
+.about__section-content {
+  flex: 1;
+}
