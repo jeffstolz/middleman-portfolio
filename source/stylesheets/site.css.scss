@@ -1,8 +1,11 @@
 @import "bourbon/bourbon";
-@import "base/variables";
-@import "base/typography";
-@import "base/mixins";
-@import "base/layout";
+@import "settings/variables";
+@import "settings/typography";
+
+@import "tools/mixins";
+
+@import "elements/layout";
+
 @import "components/navbar";
 @import "components/footer";
 @import "components/index";

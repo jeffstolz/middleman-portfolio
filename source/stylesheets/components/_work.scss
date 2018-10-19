@@ -31,12 +31,16 @@
 }
 
 .work__solutions {
-  display: flex;
+  @include breakpoint($breakpoint-medium) {
+    display: flex;
+  }
 }
 
 .work__solution-item {
-@include padding(null $spacing-large);
-  flex: 1;
+  @include breakpoint($breakpoint-medium) {
+    @include padding(null $spacing-large);
+    flex: 1;
+  }
 }
 
 .work__solution-footnote {
