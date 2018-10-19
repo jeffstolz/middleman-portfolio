@@ -7,7 +7,7 @@
 
   @include breakpoint($breakpoint-medium) {
     @include margin($spacing-xx-large null);
-  }  
+  }
 }
 
 .work__image--small-spacing {
@@ -15,7 +15,7 @@
 
   @include breakpoint($breakpoint-medium) {
     @include margin($spacing-xx-large null $spacing-small null);
-  }  
+  }
 }
 
 .work__image--x-small-spacing {
@@ -23,7 +23,7 @@
 
   @include breakpoint($breakpoint-medium) {
     margin-bottom: $spacing-base;
-  }  
+  }
 }
 
 .work__solutions--wrapper {
