@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   padding: $spacing-base;
+  margin-top: $spacing-medium;
 
   @include breakpoint($breakpoint-medium) {
     padding: $spacing-large;
@@ -19,10 +20,14 @@
 }
 
 .index__case {
-  @include margin(null $spacing-small);
+  @include margin(null auto);
   margin-bottom: $spacing-base;
   max-width: $index-max-width;
   position: relative;
+
+  @include breakpoint($breakpoint-large) {
+    @include margin(null $spacing-small);
+  }  
 }
 
 .index__case--overlay {
@@ -53,5 +58,4 @@
 
 .index__thumbnail {
   background-color: $very-light-gray;
-  max-width: 100%;
 }

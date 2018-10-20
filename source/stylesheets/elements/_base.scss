@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  padding: 0rem;
+}
+
+a {
+  text-decoration: none;
+  color: $teal;
+  &:hover {
+    color: $teal-dark;
+  }
+}
+
+img {
+  max-width: 100%;
+}

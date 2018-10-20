@@ -1,0 +1,34 @@
+.split-layout {
+  margin: $spacing-base;
+  max-width: $page-max-width;
+
+  @include breakpoint($breakpoint-medium) {
+    margin: $spacing-large auto;
+  }
+}
+
+.split-layout__section {
+  @include padding($spacing-base null);
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($breakpoint-medium) {
+    @include padding($spacing-base);
+    flex-direction: row;
+  }
+}
+
+.split-layout__section-header {
+  flex: 1;
+  padding-right: $spacing-base;
+}
+
+.split-layout__section-content {
+  flex: 1;
+}
+
+.split-layout__divider {
+  @include margin($spacing-xx-large null);
+  border: solid 1px $light-gray;
+  width: 40%;
+}
