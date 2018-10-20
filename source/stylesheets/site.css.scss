@@ -1,13 +1,19 @@
+// Vendor imports
 @import "bourbon/bourbon";
-@import "settings/variables";
-@import "settings/typography";
 
+// Settings
+@import "settings/typography";
+@import "settings/variables";
+
+// Tools
 @import "tools/mixins";
 
+// Elements
 @import "elements/layout";
 
-@import "components/navbar";
+// Components
+@import "components/about";
 @import "components/footer";
 @import "components/index";
-@import "components/about";
+@import "components/navbar";
 @import "components/work";
