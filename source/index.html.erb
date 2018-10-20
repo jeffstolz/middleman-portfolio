@@ -4,19 +4,19 @@ title: Jeff Stolz - Product Designer
 
 <main class="index">
 
-  <h1><%= t("index.hello") %></h1>
-  <h4><%= t("index.welcome") %></h3>
+  <h1><%= t("index.welcome-heading") %></h1>
+  <h4><%= t("index.welcome-subheading") %></h3>
 
   <section class="index__cards">
 
     <% link_to "mobile-heartbeat.html", class: "index__case" do %>
       <div class="index__case--overlay">
         <p class="index__case-description">
-          <%= t("index.mh-description") %>
+          <%= t("index.mh-content") %>
         </p>
       </div>
       <h5 class="index__case-heading">
-        <%= t("index.mh") %>
+        <%= t("universal.mh-heading") %>
       </h5>
       <%= image_tag(
         "mh-thumb.png",
@@ -28,11 +28,11 @@ title: Jeff Stolz - Product Designer
     <% link_to "hmh-marketplace.html", class: "index__case" do %>
       <div class="index__case--overlay">
         <p class="index__case-description">
-          <%= t("index.hmh-description") %>
+          <%= t("index.hmh-content") %>
         </p>
       </div>
       <h5 class="index__case-heading">
-        <%= t("index.hmh") %>
+        <%= t("universal.hmh-heading") %>
       </h5>
       <%= image_tag(
         "hmh-thumb.png",
@@ -44,11 +44,11 @@ title: Jeff Stolz - Product Designer
     <% link_to "pegasystems.html", class: "index__case" do %>
       <div class="index__case--overlay">
         <p class="index__case-description">
-          <%= t("index.pega-description") %>
+          <%= t("index.pega-content") %>
         </p>
       </div>
       <h5 class="index__case-heading">
-        <%= t("index.pega") %>
+        <%= t("universal.pega-heading") %>
       </h5>
       <%= image_tag(
         "hmh-thumb.png",
@@ -56,7 +56,7 @@ title: Jeff Stolz - Product Designer
         alt: t("index.pega-alt"),
       ) %>
     <% end %>
-    
+
   </section>
 
 </main>
