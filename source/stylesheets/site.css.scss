@@ -2,14 +2,15 @@
 @import "bourbon/bourbon";
 
 // Settings
-@import "settings/typography";
 @import "settings/variables";
 
 // Tools
 @import "tools/mixins";
 
 // Elements
+@import "elements/base";
 @import "elements/layout";
+@import "settings/typography";
 
 // Components
 @import "components/about";
