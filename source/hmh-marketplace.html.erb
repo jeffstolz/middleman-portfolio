@@ -13,4 +13,69 @@ title: Case Study - HMH Marketplace
     alt: t("hmh.overview-alt"),
   ) %>
 
+  <section class="split-layout__section">
+    <h2 class="split-layout__section-header">
+      <%= t("hmh.background-heading") %>
+    </h2>
+    <div class="split-layout__section-content">
+      <p><%= t("hmh.background-content-1") %></p>
+      <p><%= t("hmh.background-content-2") %></p>
+    </div>
+  </section>
+
+  <hr class="split-layout__divider">
+
+  <section class="split-layout__section">
+    <div class="split-layout__section-header">
+      <h2>
+        <%= t("hmh.understand-heading") %>
+      </h2>
+      <p>
+        <%= t("hmh.sprint-heading-1") %>
+      </p>
+    </div>
+    <div class="split-layout__section-content">
+      <p><%= t("hmh.understand-content") %></p>
+    </div>
+  </section>
+
+  <%= image_tag(
+    "hmh-uxcanvas.jpg",
+    class: "work__image--small-spacing",
+    alt: t("hmh.understand-alt-1"),
+  ) %>
+  <p><%= t("hmh.understand-footnote-1") %></p>
+
+  <%= image_tag(
+    "hmh-map.jpg",
+    class: "work__image--small-spacing",
+    alt: t("hmh.understand-alt-2"),
+  ) %>
+  <p><%= t("hmh.understand-footnote-2") %></p>
+
+  <hr class="split-layout__divider">
+
+  <section class="split-layout__section">
+    <div class="split-layout__section-header">
+      <h2>
+        <%= t("hmh.sketch-heading") %>
+      </h2>
+      <p>
+        <%= t("hmh.sprint-heading-2") %>
+      </p>
+    </div>
+    <div class="split-layout__section-content">
+      <p><%= t("hmh.sketch-content") %></p>
+    </div>
+  </section>
+
+  <%= image_tag(
+    "hmh-sketches.jpg",
+    class: "work__image--small-spacing",
+    alt: t("hmh.sketch-alt"),
+  ) %>
+  <p><%= t("hmh.sketch-footnote") %></p>
+
+  <hr class="split-layout__divider">
+
 </main>
