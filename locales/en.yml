@@ -19,6 +19,9 @@ en:
   contact:
     contact-content: "I am looking to contribute to a group of bold & talented individuals that are committed to user-centric design thinking and collaborative, agile approaches. If you think I may be a good fit for your team, please feel free to reach out. The best way to get a hold of me is by email "
     contact-heading: "Thanks for visiting"
+  hmh:
+    overview-alt: "HMH Marketplace web application."
+    overview-heading: "An online destination that offers teachers & developers the opportunity to share digital resources for the classroom."
   mh:
     design-process-alt: "Sketch of Mobile Heartbeat information architecture."
     design-process-content: "The culture I’ve worked to establish is that of highly rapid, transparent, and collaborative design and prototyping. We began with brainstorming workshops, low-fidelity sketches, wireframes, and then increased in detail as our vision became more defined. Additionally, we maintained a regular feedback loop with our users throughout the design process."

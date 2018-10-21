@@ -29,7 +29,7 @@
 
 .split-layout__divider {
   @include margin($spacing-base null);
-  border: solid 1px $light-gray;
+  border: $border-light;
   width: 60%;
 
   @include breakpoint($breakpoint-medium) {
