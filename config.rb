@@ -8,6 +8,7 @@ end
 activate :livereload
 set :relative_links, true
 activate :i18n
+activate :favicon_maker
 
 # Layouts
 # Per-page layout changes
