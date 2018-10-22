@@ -26,6 +26,10 @@
   }
 }
 
+.work__image--border {
+  border: $border-light;
+}
+
 .work__solutions--wrapper {
   padding-top: $spacing-x-large;
 }
@@ -36,9 +40,16 @@
   }
 }
 
-.work__solution-item {
+.work__solution-item-large-spacing {
   @include breakpoint($breakpoint-medium) {
     @include padding(null $spacing-large);
+    flex: 1;
+  }
+}
+
+.work__solution-item-small-spacing {
+  @include breakpoint($breakpoint-medium) {
+    @include padding(null $spacing-small);
     flex: 1;
   }
 }

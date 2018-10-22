@@ -26,7 +26,7 @@ $font-weight-normal: 300;
 $font-weight-medium: 400;
 $font-weight-bold: 700;
 
-//Line Heights
+// Line Heights
 $line-height-base: 1.7;
 $line-height-medium: 2.55;
 
@@ -40,9 +40,12 @@ $spacing-x-large: 6em;
 $spacing-xx-large: 9em;
 $spacing-xxx-large: 13.5em;
 
-//Other Sizes
+// Other Sizes
 $index-max-width: 25em;
 $page-max-width: 60em;
 
 // Typography
 $font-family-base: $font-stack-helvetica;
+
+// Borders
+$border-light: solid 1px $light-gray;
