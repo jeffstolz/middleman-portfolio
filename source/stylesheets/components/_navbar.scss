@@ -15,10 +15,14 @@
   }
 }
 
-.navbar__mobile-icon {
+.navbar__mobile {
   @include breakpoint($breakpoint-medium) {
     visibility: hidden;
   }
+}
+
+.navbar__icon {
+  fill: $teal;
 }
 
 .navbar__name {

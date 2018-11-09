@@ -14,8 +14,10 @@
         <%= link_to t("navbar.contact-heading"), "contact.html" %>
       </li>
     </div>
-    <li class="navbar__mobile-icon">
-      <%= link_to '<i class="fa fa-bars"></i>', "javascript:void(0);", class: "icon" %>
+    <li class="navbar__mobile">
+      <% link_to do %>
+        <%= svg "hamburger" %>
+      <% end %>
     </li>
   </ul>
 </nav>
