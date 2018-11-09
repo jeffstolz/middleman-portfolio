@@ -1,16 +1,32 @@
 <nav>
-  <ul class="navbar">
+  <ul id="navbar-top" class="navbar">
     <li class="navbar__name">
       <span class="navbar__name--impact">Jeff</span>Stolz
     </li>
-    <li class="navbar__link">
-      <%= link_to t("navbar.work-heading"), "index.html" %>
-    </li>
-    <li class="navbar__link">
-      <%= link_to t("navbar.about-heading"), "about.html" %>
-    </li>
-    <li class="navbar__link">
-      <%= link_to t("navbar.contact-heading"), "contact.html" %>
+    <div class="navbar__link-list">
+      <li class="navbar__link">
+        <%= link_to t("navbar.work-heading"), "index.html" %>
+      </li>
+      <li class="navbar__link">
+        <%= link_to t("navbar.about-heading"), "about.html" %>
+      </li>
+      <li class="navbar__link">
+        <%= link_to t("navbar.contact-heading"), "contact.html" %>
+      </li>
+    </div>
+    <li class="navbar__mobile-icon">
+      <%= link_to '<i class="fa fa-bars"></i>', "javascript:void(0);", class: "icon" %>
     </li>
   </ul>
 </nav>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("navbar-top");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+  }
+</script>
