@@ -1,16 +1,28 @@
 <nav>
-  <ul class="navbar">
+  <ul id="navbar-top" class="navbar">
     <li class="navbar__name">
       <span class="navbar__name--impact">Jeff</span>Stolz
     </li>
-    <li class="navbar__link">
-      <%= link_to t("navbar.work-heading"), "index.html" %>
-    </li>
-    <li class="navbar__link">
-      <%= link_to t("navbar.about-heading"), "about.html" %>
-    </li>
-    <li class="navbar__link">
-      <%= link_to t("navbar.contact-heading"), "contact.html" %>
+    <div id="toggle" class="navbar__link-list">
+      <li class="navbar__link">
+        <%= link_to t("navbar.work-heading"), "index.html" %>
+      </li>
+      <li class="navbar__link">
+        <%= link_to t("navbar.about-heading"), "about.html" %>
+      </li>
+      <li class="navbar__link">
+        <%= link_to t("navbar.contact-heading"), "contact.html" %>
+      </li>
+    </div>
+    <li onclick="toggle_visibility('toggle');" class="navbar__mobile">
+      <%= svg "hamburger" %>
     </li>
   </ul>
 </nav>
+
+<script>
+  function toggle_visibility(toggle) {
+  var e = document.getElementById(toggle);
+  e.style.display = ((e.style.display!='block') ? 'block' : 'none');
+  }
+</script>
