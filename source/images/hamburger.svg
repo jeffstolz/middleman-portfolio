@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="navbar__icon" width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg class="hamburger" width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Hamburger</title>
   <g id="Hamburger" fill-rule="evenodd">
     <path d="M19,13.75 L19,15.25 C19,15.6601562 18.6601562,16 18.25,16 L1.75,16 C1.33984375,16 1,15.6601562 1,15.25 L1,13.75 C1,13.3398438 1.33984375,13 1.75,13 L18.25,13 C18.6601562,13 19,13.3398438 19,13.75 Z M19,7.75 L19,9.25 C19,9.66015625 18.6601562,10 18.25,10 L1.75,10 C1.33984375,10 1,9.66015625 1,9.25 L1,7.75 C1,7.33984375 1.33984375,7 1.75,7 L18.25,7 C18.6601562,7 19,7.33984375 19,7.75 Z M19,1.75 L19,3.25 C19,3.66015625 18.6601562,4 18.25,4 L1.75,4 C1.33984375,4 1,3.66015625 1,3.25 L1,1.75 C1,1.33984375 1.33984375,1 1.75,1 L18.25,1 C18.6601562,1 19,1.33984375 19,1.75 Z"></path>
