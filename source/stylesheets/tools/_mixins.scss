@@ -4,3 +4,9 @@
     @content;
   }
 }
+
+@mixin breakpointBetween($propertyMax, $propertyMin)  {
+  @media (max-width: $propertyMax) and (min-width: $propertyMin) {
+    @content;
+  }
+}

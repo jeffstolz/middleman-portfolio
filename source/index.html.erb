@@ -15,9 +15,9 @@ title: Jeff Stolz - Product Designer
           <%= t("index.mh-content") %>
         </p>
       </div>
-      <h5 class="index__case-heading">
-        <%= t("universal.mh-heading") %>
-      </h5>
+      <h6 class="index__case-heading">
+        <%= t("universal.case-study-heading") %>
+      </h6>
       <%= image_tag(
         "mh-thumb.png",
         class: "index__thumbnail",
@@ -31,9 +31,9 @@ title: Jeff Stolz - Product Designer
           <%= t("index.hmh-content") %>
         </p>
       </div>
-      <h5 class="index__case-heading">
-        <%= t("universal.hmh-heading") %>
-      </h5>
+      <h6 class="index__case-heading">
+        <%= t("universal.design-sprint-heading") %>
+      </h6>
       <%= image_tag(
         "hmh-thumb.png",
         class: "index__thumbnail",
@@ -47,9 +47,25 @@ title: Jeff Stolz - Product Designer
           <%= t("index.pega-content") %>
         </p>
       </div>
-      <h5 class="index__case-heading">
-        <%= t("universal.pega-heading") %>
-      </h5>
+      <h6 class="index__case-heading">
+        <%= t("universal.design-system-heading") %>
+      </h6>
+      <%= image_tag(
+        "hmh-thumb.png",
+        class: "index__thumbnail",
+        alt: t("index.pega-alt"),
+      ) %>
+    <% end %>
+
+    <% link_to "pegasystems.html", class: "index__case" do %>
+      <div class="index__case--overlay">
+        <p class="index__case-description">
+          <%= t("index.hackathon-content") %>
+        </p>
+      </div>
+      <h6 class="index__case-heading">
+        <%= t("universal.hackathon-heading") %>
+      </h6>
       <%= image_tag(
         "hmh-thumb.png",
         class: "index__thumbnail",
