@@ -27,13 +27,15 @@
 
   @include breakpoint($breakpoint-large) {
     @include margin(null $spacing-small);
-  }  
+  }
 }
 
 .index__case--overlay {
   @include position(absolute, 0);
+  align-items: center;
   background-color: $teal-transparent;
   color: $white;
+  display: flex;
   opacity: 0;
 }
 
@@ -51,9 +53,13 @@
 }
 
 .index__case-description {
-  @include margin($spacing-xx-large auto 0 auto);
   color: $white;
+  margin: 0 auto;
   width: 80%;
+
+  @include breakpointBetween($breakpoint-x-large, $breakpoint-large) {
+    font-size: $font-size-small;
+  }
 }
 
 .index__thumbnail {

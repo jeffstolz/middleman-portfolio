@@ -15,9 +15,9 @@
   }
 }
 
-.navbar__mobile {
+.navbar__hamburger {
   @include breakpoint($breakpoint-medium) {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -27,13 +27,29 @@
   font-weight: $font-weight-light;
   line-height: 1;
   text-transform: uppercase;
-
-  @include breakpoint($breakpoint-medium) {
-
-  }
 }
 
 .navbar__name--impact {
   color: $teal;
   font-weight: $font-weight-bold;
+}
+
+.navbar.responsive {
+  .navbar__link-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: $spacing-x-large + $spacing-small;
+    left: 0;
+    background: $dark-gray;
+    color: $white;
+    @include padding($spacing-medium 0);
+    text-align: center;
+    z-index: 1;
+  }
+  .navbar__link {
+    padding-left: 0;
+    color: $white;
+  }
 }

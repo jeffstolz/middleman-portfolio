@@ -14,15 +14,19 @@
         <%= link_to t("navbar.contact-heading"), "contact.html" %>
       </li>
     </div>
-    <li onclick="toggle_visibility('toggle');" class="navbar__mobile">
+    <li onclick="myFunction()" class="navbar__hamburger">
       <%= svg "hamburger" %>
     </li>
   </ul>
 </nav>
 
 <script>
-  function toggle_visibility(toggle) {
-  var e = document.getElementById(toggle);
-  e.style.display = ((e.style.display!='block') ? 'block' : 'none');
+  function myFunction() {
+      var x = document.getElementById("navbar-top");
+      if (x.className === "navbar") {
+          x.className += " responsive";
+      } else {
+          x.className = "navbar";
+      }
   }
 </script>
